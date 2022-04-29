@@ -8,7 +8,7 @@
     <meta name="keywords" content="love running, running cluv, ireland, dublin">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Gallery</title>
+    <title>Love Running</title>
 </head>
 <body>
   <header>
@@ -17,38 +17,39 @@
 </a>
 <nav id="menu">
   <ul>
-    <li>
-      <li><a href="signup.html">Sign up</a>
-      <li><a href="gallery.html"class="active">Gallery</a>
-      <li><a href="index.html" >Home</a>
-     </li>
-    
-    </li>
-    
-    </li>
-    </ul>
+      <li><a href="signup.html" class="active">Sign up</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="index.html" >Home</a></li>    
+  </ul>
 
 </nav>
+</header>
+<section class="form-section">
+    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+        <h2>Let's get you signed up!<i class="fas fa-heartbeat"></i></h2>
+        <label for="fname">First Name</label>
+        <input class="text-input" id="fname" name="first_name" type="text" required>
+        
+        <label for="lname">Last Name</label>
+        <input class="text-input" id="lname" name="last_name" type="text" required>
+        
+        <label for="email">Email Address</label>
+        <input class="text-input" type="email" id="email" name="email_address" required>
+        
+        <label for="road">Road</label>
+        <input type="radio" id="road" name="running_preference" value="road" required>
+        <label for="trail">Trail</label>
+        <input type="radio" id="trail" name="running_preference" value="trail" required>
+        <label for="both">Both</label>
+        <input type="radio" id="both" name="running_preference" value="both" required>
+        
+        <input class="join-button" type="submit" value="Let's Run!">
 
 
-  </header>
+    </form>
+</section>
 
- <section id="photos">
-     <img src="assets/images/athletes.jpg" alt="Two athletes running together">
-     <img src="assets/images/girls.jpg" alt="Three girls at charity paint running festival">
-     <img src="assets/images/runner3.jpg" alt="xxxx">
-     <img src= "assets/images/man.jpg" alt="xxxx">
-     <img src= "assets/images/runner1.jpg" alt="xxxx">
-     <img src= "assets/images/runner2.jpg" alt="xxxx">
-     <img src= "assets/images/runner4.jpg" alt="xxxx">
-     <img src= "assets/images/running_gang.jpg" alt="xxxx">
-     <img src= "assets/images/mud-run.jpg" alt="xxxx">
-
- </section>
-
-
-
-  <footer> 
+<footer> 
     <ul class="social-networks">
         <li>
           <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook Page (opens in a new tab)" ><i class="fa-brands fa-facebook"></i></a>   
@@ -63,8 +64,7 @@
           <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter Page (opens in a new tab)" ><i class="fa-brands fa-twitter"></i></a>   
         </li>
     </ul>
-
-  </footer>
+ </footer>
 
 <!-- font awesome script -->
 
@@ -72,7 +72,3 @@
   
 </body>
 </html>
-
-
-
-
